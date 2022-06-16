@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Policeman Details</title>
+    <link rel="icon" href="./images/logo_main.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/drivers.css">
+</head>
+<body>
+
+<div id="div_content" style="display: none" class="wrapper d-flex align-items-stretch">
+
+    <div id="div_loading" style="position: absolute;
+                                left: 50%;
+                                top: 50%;
+                                margin-left: 100px;
+                                margin-top: 50px;
+                                transform: translate(-50%, -50%);
+                                padding: 10px;">
+
+        <svg id="spinner" class="spinner" width="65px" height="65px" viewBox="0 0 66 66"
+             xmlns="http://www.w3.org/2000/svg">
+            <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+        </svg>
+    </div>
+
+    <nav id="sidebar">
+        <div class="p-4 pt-5">
+            <a href="dashboard.html" class="img logo rounded-circle mb-5" style="background-image: url(images/logo_round.png);"></a>
+            <ul class="list-unstyled components mb-5">
+
+                <li class="nav_drivers"><a href="drivers.html">Registered Drivers</a></li>
+
+                <li class="nav_policemen"><a href="policemen.html">Registered Policemen</a></li>
+
+                <li class="nav_collection_centers"><a href="collection_centers.html">Collection Centers</a></li>
+
+                <li class="nav_penalty_rules"><a href="penalty_rules.html">Penalty Rules</a></li>
+
+                <li class="nav_tickets"><a href="tickets.html">Tickets Issued</a></li>
+
+                <li>
+                    <a id="nav_database" href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+                       class="dropdown-toggle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dummy Database</a>
+
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li class="nav_drivers"><a href="dummy_drivers.html">Dummy Drivers</a></li>
+                        <li class="nav_policemen"><a href="dummy_policemen.html">Dummy Policemen</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg"
+             style="background: #0c237e; margin-bottom: 50px; border-radius: 10px; outline: 2px solid #0c237e;">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <h3 id="text_heading" style="background: url('./images/police_small.png') no-repeat left;
+                    padding-left: 30px; color: white; text-align: center;">Policeman Details</h3>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a id="label_home" style="font-size: 18px; color: #f8b739; margin-right: 10px;
+                            background: url('./images/home_small.png') no-repeat left;
+                            padding-left: 30px;" class="nav-link"
+                               href="dashboard.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style=" background: url('./images/logout_small.png') no-repeat left;
+                                       padding-left: 30px;font-size: 18px; color: #f8b739;
+                                       " class="nav-link" href="#" id="label_logout"
+                               onclick="return signOut(); ">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--        /////////////////////////////////////////////////////////-->
+
+        <div id="section_details" class="container-fluid"
+             style="outline: 2px solid #0c237e; margin-bottom: 50px; padding: 20px;border-radius: 10px; display: none">
+
+            <h4 id="text_badge_number">Policeman</h4>
+
+            <table id="table_details" class="table table-hover table-striped"></table>
+        </div>
+
+        <div id="section_total_tickets" class="container-fluid"
+             style="outline: 2px solid #0c237e; padding: 20px;border-radius: 10px; display: none;margin-bottom: 50px;">
+
+            <h4 id="text_tickets_info">Tickets Info</h4>
+
+            <table id="table_tickets_count" class="table table-hover table-striped"></table>
+        </div>
+
+        <div id="section_all_tickets" class="container-fluid"
+             style="outline: 2px solid #0c237e; padding: 20px;border-radius: 10px; display: none;margin-bottom: 50px;">
+
+            <h4 id="text_tickets">All Issued Tickets</h4>
+
+            <table id="table_tickets" class="table table-hover table-striped"></table>
+
+            <h5 style="display: none; text-align: center" id="text_no_tickets">No results found</h5>
+        </div>
+
+        <!--        /////////////////////////////////////////////////////////-->
+    </div>
+</div>
+
+<!--firebase-->
+<script src="/__/firebase/9.6.6/firebase-app-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-auth-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-database-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-firestore-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-functions-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-storage-compat.js"></script>
+<script src="/__/firebase/init.js"></script>
+<!--your scripts-->
+<script src="js/policeman_details.js"></script>
+<!--external scripts-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

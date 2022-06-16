@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "27138017368",
+    "firebase_url": "https://police-ticket-4cdcc-default-rtdb.firebaseio.com",
+    "project_id": "police-ticket-4cdcc",
+    "storage_bucket": "police-ticket-4cdcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27138017368:android:59230eb4be1bfbbadb622d",
+        "android_client_info": {
+          "package_name": "com.zionjr.policeticket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27138017368-0c1iocq21f89kt9jnlo3ujrr8lqm1gml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5EnzsFComzscfnllK7aqoLoIxX19rvS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27138017368-0c1iocq21f89kt9jnlo3ujrr8lqm1gml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+table.table_all_policemen {
+    width: 70%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    color: #000000;
+}
+
+table.table_all_policemen td, table.table_all_policemen th {
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    padding: 3px;
+}
+
+table.table_all_policemen thead {
+    background-color: #ffcc00;
+}

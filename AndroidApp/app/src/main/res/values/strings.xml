@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Police Ticket</string>
+    <string name="signup_label">Not registered yet ? <b>Signup</b></string>
+    <string name="login_label">Already registered ? <b>Login</b></string>
+    <string name="policeman_login">Policeman <b>Login</b></string>
+    <string name="policeman_signup">Policeman <b>Signup</b></string>
+    <string name="driver_login">Driver <b>Login</b></string>
+    <string name="driver_signup">Driver <b>Signup</b></string>
+    <string name="scan_license">Press To Scan\n<b>Driving License</b></string>
+    <string name="scan_plate">Press To Scan\n<b>Plate Number</b></string>
+    <string name="scan_note"><b><i>Important:</i>\n- Make sure your camera has best results\n- Lighting is good around you\n- License card is close to the camera</b></string>
+    <string name="scan_note_plate"><b><i>Important:</i>\n- Make sure your camera has best results\n- Lighting is good around you\n- Plate no. is close to the camera</b></string>
+    <string name="scan_fail"><b>License scan failed! Please try again</b></string>
+    <string name="scan_success"><b>License scanned successfully</b></string>
+    <string name="driver_portal">Driver <b>Portal</b></string>
+    <string name="policeman_portal">Policeman <b>Portal</b></string>
+    <string name="penalty_rules">Penalty <b>Rules</b></string>
+    <string name="driver_details">Driver <b>Details</b></string>
+    <string name="collection_centers">Collection <b>Centers</b></string>
+    <string name="scan_license_label">Scan <b>Driving License</b></string>
+    <string name="scan_plate_label">Scan <b>Plate Number</b></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="issue_ticket">Issue <b>Ticket</b></string>
+    <string name="select_violations">Select Violations <b>(0 Selected)</b></string>
+    <string name="issued_tickets">Issued <b>Tickets</b></string>
+</resources>

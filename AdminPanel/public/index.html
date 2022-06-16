@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Police Ticket | Admin</title>
+    <link rel="icon" href="./images/logo_main.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- jQuery CDN -->
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous">
+    </script>
+
+    <!--    font-->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Righteous&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh">
+
+    <svg id="spinner" class="spinner" style="display: none" width="65px" height="65px" viewBox="0 0 66 66"
+         xmlns="http://www.w3.org/2000/svg">
+        <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg>
+
+    <div id="content" class="container"
+         style="width: 400px; display: none; justify-content: center; align-items: center; height: 100vh;">
+
+        <img id="logo-image" style="display: table; margin: 40px auto 0;padding: 20px" src="./images/logo_main.png"
+             alt=""
+             width="135" height="178">
+
+        <div class="well" id="login-card">
+            <h2 style="text-align: center; background: #092275; margin-top: -2px; border-radius:10px; padding: 20px; color: #ffffff">
+                Sign In</h2>
+            <!--    form content-->
+            <div style="width: 80%; margin: 25px auto;">
+                <form id="login_form">
+                    <div class="form-group">
+                        <label>Email: </label>
+                        <input class="form-control" type="email" name="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password: </label>
+                        <input class="form-control" type="password" name="password" minlength="6"
+                               placeholder="Enter password"
+                               required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+                    </div>
+                </form>
+            </div>
+
+            <h5 id="error_text" style="text-align: center; font-weight: bold; color: red; display: none">ERROR</h5>
+        </div>
+    </div>
+</div>
+
+<!--firebase-->
+<script src="/__/firebase/9.6.6/firebase-app-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-auth-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-database-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-firestore-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-functions-compat.js"></script>
+<script src="/__/firebase/9.6.6/firebase-storage-compat.js"></script>
+<script src="/__/firebase/init.js"></script>
+<!--your scripts-->
+<script src="js/index.js"></script>
+</body>
+</html>

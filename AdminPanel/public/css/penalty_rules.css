@@ -1,0 +1,20 @@
+table.table_all_penalty_rules {
+    width: 70%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    color: #000000;
+}
+
+table.table_all_penalty_rules td, table.table_all_penalty_rules th {
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    padding: 3px;
+}
+
+table.table_all_penalty_rules thead {
+    background-color: #ffcc00;
+}

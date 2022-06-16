@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6b38a4d-98c4-42c0-99f7-cb4cd48579f2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="24vSyK8vFaYDvvAuknQ0Xt2wftw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Taymoor\Desktop\police_ticket\admin_panel\public\images" />
+      <recent name="C:\Users\Taymoor\Desktop\police_ticket\admin_panel\public\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Taymoor\Desktop\police_ticket\admin_panel\public" />
+      <recent name="C:\Users\Taymoor\Desktop\police_ticket\admin_panel\public\html" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6b38a4d-98c4-42c0-99f7-cb4cd48579f2" name="Default Changelist" comment="" />
+      <created>1644509826499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644509826499</updated>
+      <workItem from="1644509831216" duration="11462000" />
+      <workItem from="1644601917642" duration="19000000" />
+      <workItem from="1644687603143" duration="8745000" />
+      <workItem from="1644754662702" duration="23716000" />
+      <workItem from="1644841443402" duration="6811000" />
+      <workItem from="1645016997866" duration="1034000" />
+      <workItem from="1645099227848" duration="10599000" />
+      <workItem from="1645184591243" duration="6658000" />
+      <workItem from="1645273058060" duration="7022000" />
+      <workItem from="1645314404566" duration="827000" />
+      <workItem from="1645360696054" duration="1859000" />
+      <workItem from="1645443122753" duration="3076000" />
+      <workItem from="1645535877608" duration="2482000" />
+      <workItem from="1645618620506" duration="10783000" />
+      <workItem from="1645707310661" duration="2623000" />
+      <workItem from="1645734449076" duration="51000" />
+      <workItem from="1645734520184" duration="5512000" />
+      <workItem from="1645820453064" duration="1645000" />
+      <workItem from="1645825202201" duration="9059000" />
+      <workItem from="1645915452379" duration="52000" />
+      <workItem from="1645915521219" duration="6127000" />
+      <workItem from="1645967452492" duration="25076000" />
+      <workItem from="1646049177899" duration="35134000" />
+      <workItem from="1646133353470" duration="30688000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="139" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1646135205321">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="499" y="139" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.783@0.0.1536.783" timestamp="1646135205321" />
+    <state x="549" y="147" key="FileChooserDialogImpl" timestamp="1645967640873">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="549" y="147" key="FileChooserDialogImpl/0.0.1536.783@0.0.1536.783" timestamp="1645967640873" />
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1644528541978">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.783@0.0.1536.783" timestamp="1644528541978" />
+    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1644528541978">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.783@0.0.1536.783" timestamp="1644528541978" />
+    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1644528541978">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.783@0.0.1536.783" timestamp="1644528541978" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1644528541978">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.783@0.0.1536.783" timestamp="1644528541978" />
+    <state x="294" y="70" key="SettingsEditor" timestamp="1644606910025">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="294" y="70" key="SettingsEditor/0.0.1536.783@0.0.1536.783" timestamp="1644606910025" />
+    <state x="425" y="177" key="run.anything.popup" timestamp="1646134674795">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="425" y="177" key="run.anything.popup/0.0.1536.783@0.0.1536.783" timestamp="1646134674795" />
+    <state x="431" y="104" width="672" height="678" key="search.everywhere.popup" timestamp="1644528062191">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="431" y="104" width="672" height="678" key="search.everywhere.popup/0.0.1536.783@0.0.1536.783" timestamp="1644528062191" />
+  </component>
+</project>
